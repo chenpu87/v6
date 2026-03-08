@@ -663,7 +663,18 @@
 			        font-size: 20px;
 			        letter-spacing: 0.2em;
 			    }
-
+				
+				.nav-menu-overlay{
+				   z-index: 9999!important;						
+				}
+                .slider-arrow-btn{
+                   z-index:1 !important;	
+					
+                } 
+			
+                .slider-img-box{
+                   height: 350px !important;	
+			   } 
 			    /* 3. 漢堡按鈕動畫 */
 			    .menu-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
 			    .menu-toggle.active span:nth-child(2) { transform: rotate(-45deg) translate(5px, -5px); }
@@ -849,6 +860,8 @@
 		    padding-bottom: 40px !important;
 		    gap: 15px !important;
 		}
+		
+		
     </style>
 </head>
 <body>
@@ -966,23 +979,23 @@
         painting: {
             title: "Paint - Finish.",
             slides: [
-                { img: "assets/slides-paint-1.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" },
-                { img: "assets/slides-paint-2.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" },
-                { img: "assets/slides-paint-3.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" }
+                { img: "assets/slides-paint-1.jpg", h3: "Precision Coating Art", p: "TEvery frame undergoes a multi-layer coating process, ensuring vibrant color depth and a flawless mirror-like finish." },
+                { img: "assets/slides-paint-2.jpg", h3: "Advanced Surface Protection", p: "Utilizing high-performance resins to provide superior resistance against scratches, UV rays, and extreme environmental conditions." },
+                { img: "assets/slides-paint-3.jpg", h3: "Exquisite Hand-Finishing", p: "Our master painters meticulously inspect each detail, ensuring the perfect harmony between technical performance and aesthetic beauty." }
             ]
 	    },
         esg: {
             title: "ESG - VOC.",
             slides: [
-                { img: "assets/slides-ESG-1.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" },
-                { img: "assets/slides-ESG-2.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" },
-                { img: "assets/slides-ESG-3.jpg", h3: "TESTING WORKDS", p: "TESTING WORKDS" }
+                { img: "assets/slides-esg-1.jpg", h3: "VOC Emission Analysis", p: "TComprehensive monitoring of volatile organic compounds to ensure a safe workspace and zero-impact production environment." },
+                { img: "assets/slides-esg-2.jpg", h3: "Eco-Friendly Coating", p: "Utilizing advanced purification systems to maintain the highest purity in our painting process while strictly adhering to global green standards." },
+                { img: "assets/slides-esg-3.jpg", h3: "Sustainable Excellence", p: "TWhere industrial precision meets environmental integrity, delivering flawless finishes through responsible manufacturing practices." }
             ]
         },
         about: {
             title: "About Willing.",
             slides: [
-                { img: "assets/about-main.jpg", h3: "Our Soul", p: "Founded in 2016, Willing Industrial Co. Ltd. represents the pinnacle of craftsmanship in Taiwan." },
+                { img: "assets/about-main.jpg", h3: "Our Soul", p: "Founded in 1972, Willing Industrial Co. Ltd. represents the pinnacle of craftsmanship in Taiwan." },
                 { img: "assets/slides-about-1.jpg", h3: "Technical Innovation", p: "We combine decades of experience with modern technology to push the boundaries of cycling." },
                 { img: "assets/slides-about-3.jpg", h3: "Future Bound", p: "Our commitment remains unchanged: crafting the ultimate ride for every cyclist." }
             ]
